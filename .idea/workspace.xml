@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5554eb8d-ff66-4503-86f0-ff0c0370ee10" name="Default Changelist" comment="" />
+    <list default="true" id="5554eb8d-ff66-4503-86f0-ff0c0370ee10" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Node.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RBTreeMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RBTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TreeMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TreeMapNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TreeMapNode.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,7 +23,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1ZdGL8Jgj8osAaPmkfXTCEFYtD2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -23,11 +35,26 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="rbtree" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -39,7 +66,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1585161498985</updated>
-      <workItem from="1585161500703" duration="8462000" />
+      <workItem from="1585161500703" duration="15662000" />
+      <workItem from="1585186891139" duration="3191000" />
     </task>
     <servers />
   </component>
@@ -51,13 +79,64 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="588" y="214" width="800" height="677" key="#Project_Structure/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1585161548828" />
-    <state x="801" y="265" width="374" height="575" key="#com.intellij.ide.util.MemberChooser" timestamp="1585173684211">
+    <state x="801" y="265" width="374" height="575" key="#com.intellij.ide.util.MemberChooser" timestamp="1585175160830">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="801" y="265" width="374" height="575" key="#com.intellij.ide.util.MemberChooser/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1585173684211" />
+    <state x="801" y="265" width="374" height="575" key="#com.intellij.ide.util.MemberChooser/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1585175160830" />
+    <state width="1807" height="352" key="GridCell.Tab.0.bottom" timestamp="1585221497810">
+      <screen x="67" y="27" width="3773" height="1053" />
+    </state>
+    <state width="1807" height="352" key="GridCell.Tab.0.bottom/67.27.3773.1053@67.27.3773.1053" timestamp="1585221497810" />
+    <state width="1807" height="352" key="GridCell.Tab.0.center" timestamp="1585221497809">
+      <screen x="67" y="27" width="3773" height="1053" />
+    </state>
+    <state width="1807" height="352" key="GridCell.Tab.0.center/67.27.3773.1053@67.27.3773.1053" timestamp="1585221497809" />
+    <state width="1807" height="352" key="GridCell.Tab.0.left" timestamp="1585221497809">
+      <screen x="67" y="27" width="3773" height="1053" />
+    </state>
+    <state width="1807" height="352" key="GridCell.Tab.0.left/67.27.3773.1053@67.27.3773.1053" timestamp="1585221497809" />
+    <state width="1807" height="352" key="GridCell.Tab.0.right" timestamp="1585221497809">
+      <screen x="67" y="27" width="3773" height="1053" />
+    </state>
+    <state width="1807" height="352" key="GridCell.Tab.0.right/67.27.3773.1053@67.27.3773.1053" timestamp="1585221497809" />
+    <state width="1807" height="352" key="GridCell.Tab.1.bottom" timestamp="1585221497907">
+      <screen x="67" y="27" width="3773" height="1053" />
+    </state>
+    <state width="1807" height="352" key="GridCell.Tab.1.bottom/67.27.3773.1053@67.27.3773.1053" timestamp="1585221497907" />
+    <state width="1807" height="352" key="GridCell.Tab.1.center" timestamp="1585221497907">
+      <screen x="67" y="27" width="3773" height="1053" />
+    </state>
+    <state width="1807" height="352" key="GridCell.Tab.1.center/67.27.3773.1053@67.27.3773.1053" timestamp="1585221497907" />
+    <state width="1807" height="352" key="GridCell.Tab.1.left" timestamp="1585221497906">
+      <screen x="67" y="27" width="3773" height="1053" />
+    </state>
+    <state width="1807" height="352" key="GridCell.Tab.1.left/67.27.3773.1053@67.27.3773.1053" timestamp="1585221497906" />
+    <state width="1807" height="352" key="GridCell.Tab.1.right" timestamp="1585221497907">
+      <screen x="67" y="27" width="3773" height="1053" />
+    </state>
+    <state width="1807" height="352" key="GridCell.Tab.1.right/67.27.3773.1053@67.27.3773.1053" timestamp="1585221497907" />
+    <state x="649" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1585186902466">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="649" y="380" key="com.intellij.ide.util.TipDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1585186902466" />
+    <state x="738" y="181" width="500" height="743" key="refactoring.ChangeSignatureDialog" timestamp="1585176143040">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="738" y="181" width="500" height="743" key="refactoring.ChangeSignatureDialog/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1585176143040" />
     <state x="657" y="253" key="run.anything.popup" timestamp="1585173004268">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="657" y="253" key="run.anything.popup/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1585173004268" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/RBTree.java</url>
+          <line>199</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

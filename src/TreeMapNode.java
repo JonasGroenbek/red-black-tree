@@ -2,7 +2,7 @@
  * An interface for a generic TreeMap
  * Why doesn't java interfaces allow protected method scope?
  */
-public interface TreeMapNode<Key, Value, Node> {
+public interface TreeMapNode<Key extends Comparable<Key>, Value, Node> {
     Node getParent();
     Node getRightChild();
     Node getLeftChild();
