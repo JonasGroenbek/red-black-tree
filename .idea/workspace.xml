@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5554eb8d-ff66-4503-86f0-ff0c0370ee10" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Node.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RBTreeMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RBTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TreeMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TreeMapNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TreeMapNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RBTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RBTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +62,7 @@
       <option name="presentableId" value="Default" />
       <updated>1585161498985</updated>
       <workItem from="1585161500703" duration="15662000" />
-      <workItem from="1585186891139" duration="3191000" />
+      <workItem from="1585186891139" duration="7725000" />
     </task>
     <servers />
   </component>
@@ -133,7 +128,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/RBTree.java</url>
-          <line>199</line>
+          <line>210</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>

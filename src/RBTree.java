@@ -56,7 +56,7 @@ public class RBTree<Key extends Comparable<Key>, Value> implements TreeMap<Key, 
                 segregator.value = value;
                 break;
             }
-            //less than segergator
+            //less than segre<gator
             if(lessThan(key, segregator.key)){
                 if(segregator.leftChild == null) {
                     //RB value wrong
@@ -106,17 +106,28 @@ public class RBTree<Key extends Comparable<Key>, Value> implements TreeMap<Key, 
     }
 
     /**
+     * This function rotates a note to the left by substituting the right child in it's place and setting it as it's
+     * left child. The former left child of the new parent will be set as the former parents right child
+     *
      * @param rotationNode the parent to rotate left
      */
     private void rotateLeft(Node rotationNode){
-       // rotationNode.rightChild
+        rotationNode.rightChild.parent = rotationNode.parent;
+        rotationNode.parent = rotationNode.rightChild;
+        rotationNode.rightChild = rotationNode.rightChild.leftChild;
+
     }
 
     /**
+     * This function rotates a note to the right by substituting the left child in it's place and setting it as it's
+     * right child. The former right child of the new parent will be set as the former parents left child
+     *
      * @param rotationNode the parent to rotate left
      */
     private void rotateRight(Node rotationNode){
-
+        rotationNode.leftChild.parent = rotationNode.parent;
+        rotationNode.parent = rotationNode.leftChild;
+        rotationNode.leftChild = rotationNode.leftChild.rightChild;
     }
 
     private void scan(){
