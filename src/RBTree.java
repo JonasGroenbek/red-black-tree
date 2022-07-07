@@ -56,7 +56,7 @@ public class RBTree<Key extends Comparable<Key>, Value> implements TreeMap<Key, 
                 segregator.value = value;
                 break;
             }
-            //less than segre<gator
+            //less than segregator
             if(lessThan(key, segregator.key)){
                 if(segregator.leftChild == null) {
                     //RB value wrong
@@ -160,47 +160,6 @@ public class RBTree<Key extends Comparable<Key>, Value> implements TreeMap<Key, 
             this.leftChild = leftChild;
             this.rightChild = rightChild;
         }
-        /*
-        @Override
-        public Key getKey(){ return key; }
-
-        @Override
-        public Value getValue() { return value; }
-
-        @Override
-        public Node getParent(){ return parent; }
-
-        @Override
-        public Node getRightChild() { return rightChild; }
-
-        @Override
-        public Node getLeftChild() { return leftChild; }
-
-        @Override
-        public void setKey(Key key) {
-            this.key = key;
-        }
-
-        @Override
-        public void setValue(Value value) {
-            this.value = value;
-        }
-
-        @Override
-        public void setRightChild(Node rightChild){
-            this.rightChild = rightChild;
-        }
-
-        @Override
-        public void setLeftChild(Node leftChild){
-            this.leftChild = leftChild;
-        }
-
-        @Override
-        public void setParent(Node parent){
-            this.parent = parent;
-        }
-        */
     }
 
 }
